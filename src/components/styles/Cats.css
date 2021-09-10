@@ -1,0 +1,25 @@
+.cats {
+  /* height: 50vh; */
+  /* width: 100%; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cats h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.cats > img {
+  height: 50%;
+  width: 50%;
+  border-radius: 3%;
+  /* border: double 2px gray; */
+  /* padding: 2px; */
+  object-fit: contain;
+}

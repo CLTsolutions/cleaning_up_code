@@ -1,8 +1,13 @@
 .App {
   text-align: center;
+  /* height: 175vh; */
+  width: 100%;
+  background-color: #000000;
+  /* ideally, download pattern for production */
+  background-image: url('https://www.transparenttextures.com/patterns/mooning.png');
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,38 @@
+.dogs {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  height: 100vh;
+}
+
+.dogs h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.dogs > button {
+  margin: 0rem 0 3rem 0;
+  padding: 0.5rem 1rem;
+  /* text-transform: uppercase; */
+  /* border-radius: 2%; */
+}
+
+.dogs > img {
+  height: 50%;
+  width: 50%;
+  border-radius: 2%;
+  /* border: double 2px gray; */
+  /* padding: 5px; */
+  object-fit: contain;
+}
+
+/*===== media queries ======*/
+@media only screen and (max-width: 768px) {
+  .dogs > button {
+    margin-bottom: 1px;
+  }
+}
